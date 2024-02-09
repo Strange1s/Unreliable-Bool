@@ -9,11 +9,10 @@ public class unreliable_Bool
 
     public bool unreliabool()
     {
-        //create 2 random doubles
+        //create random double
         Double rand_1 = random.NextDouble();
-        Double rand_2 = random.NextDouble();
 
-        return (rand_2 > rand_1);//just compares, duh, and then returns the result
+        return (0.5 > rand_1);//just compares, duh, and then returns the result
 
         //This is simple but completely pointless. I don't know why you'd want this...
     }
